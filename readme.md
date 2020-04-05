@@ -11,10 +11,6 @@
 
 > by Hidri A.
 
-### Description 
-
-T
-
 ### User Story 
 
 As user of the application you will be able to :

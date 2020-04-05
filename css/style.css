@@ -41,7 +41,7 @@
 }
 .about-city-heading{
 
-    /* font-family: 'Fredoka One', cursive; */
+    font-family: 'Fredoka One', cursive;
 }
 .about-city-text{
     font-family: 'Comic Neue', cursive;
@@ -63,7 +63,7 @@
 #wineries-image{
     width:400px;
     text-align: center;
-    padding:0 50px;
+    /* padding:0 50px; */
 }
 /* planeta style*/
 
@@ -74,7 +74,7 @@
     line-height: 600;
     font-weight: bolder;
     padding: 20px;
-    margin-top: 3rem;;
+    /* margin-top: 3rem;; */
 }
 .planeta-text hr {
     width:50px;

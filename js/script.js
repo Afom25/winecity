@@ -47,5 +47,5 @@ $(window).on('load', function(){
 
     $(".wine-heading").addClass("animated fadeInLeft");
     $(".contact-box").addClass("animated fadeInDown");
-    $("").addClass("animated fadeInDown infinite")
+    $(".home-heading").addClass("animated fadeInDown infinite")
 })
