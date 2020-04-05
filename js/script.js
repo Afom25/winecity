@@ -44,8 +44,10 @@ $(window).on('load', function(){
     $("#image-wine1").addClass("animated fadeInDown");
     $("#image-wine2").addClass("animated fadeInDown");
     $("#image-wine3").addClass("animated fadeInDown");
-
+    $("#about-city-image").addClass("animated fadeInLeft");
+    $("#about-city-t").addClass("animated fadeInRIght");
     $(".wine-heading").addClass("animated fadeInLeft");
     $(".contact-box").addClass("animated fadeInDown");
-    $(".home-heading").addClass("animated fadeInDown infinite")
+    $(".home-heading").addClass("animated fadeInDown infinite");
+
 })
