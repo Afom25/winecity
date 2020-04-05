@@ -48,6 +48,6 @@ $(window).on('load', function(){
     $("#about-city-t").addClass("animated fadeInRIght");
     $(".wine-heading").addClass("animated fadeInLeft");
     $(".contact-box").addClass("animated fadeInDown");
-    $(".home-heading").addClass("animated fadeInDown infinite");
+    $(".home-heading").addClass("animated fadeInDown ");
 
 })
