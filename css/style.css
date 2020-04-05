@@ -1,0 +1,104 @@
+
+
+
+
+/*home-secion Style*/
+
+#home{
+    background: url(../image/wine13.jpeg)
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-bottom: 2rem;
+}
+/* #statement {
+    background: url("../image/wine4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: fixed;
+} */
+.content-box-lg{
+    padding:120px 0;
+}
+.home-heading {
+    text-align: center;
+    color: gold;
+    padding:60px;
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+}
+#arrow-home{
+
+    color:gold;  
+}
+#row-wine{
+    text-align: center;
+}
+#image-wine {
+    width:150px;
+    text-align: center;
+}
+
+/*about-city*/
+#about-city-image {
+    width:200px;
+}
+/* planeta style*/
+
+
+.planeta-text{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    line-height: 600;
+    font-weight: bolder;
+}
+.planeta-text hr {
+    width:50px;
+    height: 4px;
+    margin: 0 auto;
+    border: none;
+    background-color: red;
+}
+
+.all-heading-products{
+    color:gold;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+
+}
+.col-md-4{
+    /* background-color:#1E1B18; */
+}
+
+/* contact section style*/
+#contact{
+    text-align: center;
+}
+form {
+    margin:35px;
+}
+.input-field {
+    width:400px;
+    height:40px;
+    margin-top:20px;
+    padding-left: 10px;
+    padding-right:10px;
+    border:1px solid #232323;
+    border-radius: 14px;
+    outline:none;
+}
+.textare-field{
+    height:150px;
+    padding-top: 15px;
+}
+.btn btn-primary{
+    border-radius: 20px;
+    color:#232323;
+    margin-top: 18px;
+    background-color: hotpink;
+    padding:10px;
+    font-size:12px;
+    border:none;
+}
