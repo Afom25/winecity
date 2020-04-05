@@ -132,3 +132,15 @@ form {
     font-size:12px;
     border:none;
 }
+
+/*footter*/
+
+
+.footer-1 {
+    background: #212226;
+    padding:20px;
+}
+.fotter-text p{
+    text-align: center;
+    color:blue;
+}

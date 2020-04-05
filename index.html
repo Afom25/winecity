@@ -128,25 +128,25 @@
                 <h1 class="planeta-head-1">WINES</h1><hr>
             </div><br>
             <div class="row"  id="row-wine">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4 wow fadeInLeft" id="item">
                     <h2 class="wine-heading">EASY WINE</h2>
-                    <img src="image/m.syrah.jpeg" alt="wine" class="img-responsive" id="image-wine">
+                    <img src="image/m.syrah.jpeg" alt="wine" class="img-responsive" id="image-wine1">
                     <p class="wine-text">
                         Smooth Falvours for your every day food accompaiment
                     </p>
                     <button type="button" class="btn btn-dark btn-sm"><h2 class="wine-button">EASY DRINKING</h2></button>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4 wow fadeInLeft" id="item">
                     <h2 class="wine-heading">FINE WINE</h2>
-                    <img src="image/m.nero.jpeg" alt="wine2" class="img-responsive" id="image-wine">
+                    <img src="image/m.nero.jpeg" alt="wine2" class="img-responsive" id="image-wine2">
                     <p class="wine-text">
                         Well balanced wines produced from select grapes
                     </p>
                     <button type="buttton" class="btn btn-dark btn-sm"> <h2 class="wine-button">FINE WINES</h2></button>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4 wow fadeInLeft" id="item">
                     <h2 class="wine-heading">PRERMIUM WINES</h2>
-                    <img src="image/m.syrah.jpeg" alt="wine3" class="img-responsive" id="image-wine">
+                    <img src="image/m.syrah.jpeg" alt="wine3" class="img-responsive" id="image-wine3">
                     <p class="wine-text">
                         Great wines with higher aging potential
                     </p>
@@ -163,32 +163,31 @@
         <h1 class="planeta-head-1">CONTACT</h1><hr>
     </div><br> 
     <div class="contact-box">
-        <form>
+        <form class="form-group" id="myform" onsubmit="return validation() " action="https://formspree.io/mjvgrdrp"   method="POST">
             <input type="text" class="input-field" placeholder="your Name"><br>
             <input type="email" class="input-field" placeholder="your Email"><br>
             <input type="text" class="input-field" placeholder="Subject"><br>
             <textarea type="text" class="input-field textare-field" placeholder="your message"></textarea><br>
-            <button type="button" class="btn btn-outline-success">Send Message</button>
+            <div id="submit-btn">
+                 <button type="buttton" class="btn btn-dark btn-sm" input type="submit" value="Send"> <h2 class="wine-button">SEND</h2></button>
+                
+            </div>
         </form>
     </div>
            
 </section>
-
-<footter class="fotter-wine">
-    <div class="footter-text">
-        <p>@wine-city</p>
-        <p><a href="#">winecity@gmail.com</a></p>
-        <ul="social-media">
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
-        </ul>
+<footer class="footer-1">
+    <div class="fotter-text">
+        <p>Posted by: AGT</p>
+    <p> <a href="#">admas@gmail.com</a>  </p>
+    <ul class="social-media">
+        <li><a href="#"> Contact</a></li>
+        <li><a href="#">Email:info@winetenca.gency</a></li>
+        <li><a href="#">Tel:+254-7777777</a></li>
+    </ul>
     </div>
-</footter>
-
-
-
-
+    
+  </footer>
 
 
 
