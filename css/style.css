@@ -9,19 +9,13 @@
     no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    margin-bottom: 2rem;
+    height: 800px;
+    margin-bottom: 4rem;
+    padding:20px;
 }
-/* #statement {
-    background: url("../image/wine4.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-position: fixed;
-} */
-.content-box-lg{
-    padding:120px 0;
-}
+
+
+
 .home-heading {
     text-align: center;
     color: gold;
@@ -42,8 +36,34 @@
 }
 
 /*about-city*/
+#about-city{
+    height: 100vh;
+}
+.about-city-heading{
+
+    /* font-family: 'Fredoka One', cursive; */
+}
+.about-city-text{
+    font-family: 'Comic Neue', cursive;
+}
 #about-city-image {
-    width:200px;
+    width:350px;
+}
+/* Wineries section */
+#wineries{
+    background: whitesmoke;
+    height:100vh;
+}
+#wineries-details{
+    text-align: center;
+}
+.wineries-info{
+    text-align: center;
+}
+#wineries-image{
+    width:400px;
+    text-align: center;
+    padding:0 50px;
 }
 /* planeta style*/
 
@@ -53,6 +73,8 @@
     font-family: 'Poiret One', cursive;
     line-height: 600;
     font-weight: bolder;
+    padding: 20px;
+    margin-top: 3rem;;
 }
 .planeta-text hr {
     width:50px;
@@ -68,10 +90,18 @@
     font-size: 20px;
 
 }
-.col-md-4{
-    /* background-color:#1E1B18; */
+/*service*/
+#service {
+    background: whitesmoke;
+    height: 100vh;
 }
-
+.wine-heading{
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Merienda', cursive;
+}
+.wine-button {
+    font-size: 14px;  
+}
 /* contact section style*/
 #contact{
     text-align: center;
