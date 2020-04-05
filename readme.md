@@ -9,7 +9,7 @@
 
 ### Author 
 
-> by Hidri A.
+> by Hidri Abraham.
 
 ### User Story 
 
