@@ -37,7 +37,7 @@
 
 /*about-city*/
 #about-city{
-    height: 100vh;
+    height: 80vh;
 }
 .about-city-heading{
 
@@ -47,7 +47,7 @@
     font-family: 'Comic Neue', cursive;
 }
 #about-city-image {
-    width:350px;
+    width:230px;
 }
 /* Wineries section */
 #wineries{
@@ -61,7 +61,7 @@
     text-align: center;
 }
 #wineries-image{
-    width:400px;
+    width:350px;
     text-align: center;
     /* padding:0 50px; */
 }
@@ -110,7 +110,7 @@ form {
     margin:35px;
 }
 .input-field {
-    width:360px;
+    width:310px;
     height:40px;
     margin-top:20px;
     padding-left: 10px;
